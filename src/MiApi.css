@@ -1,0 +1,102 @@
+@font-face {
+    font-family: HP;
+    src: url(/src/assets/font/HARRYP__.TTF)
+}
+
+.buscar {
+    margin: 30px;
+}
+
+.buscar h3 {
+    font-family: HP;
+    color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+
+    background-image: url(/src/assets/img/oro.jpg);
+    background-size: auto;
+    background-position-y: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.buscar input {
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    font-family: HP;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: transparent;
+    width: 160px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 13px;
+    border-color: goldenrod;
+
+    font-family: HP;
+    font-size: 25px;
+    text-transform: uppercase;
+
+    color: transparent;
+    background-image: url(/src/assets/img/oro.jpg);
+    background-size: auto;
+    background-position-y: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /*     border: 1px solid red;
+    border-radius: 50%; */
+}
+
+img {
+    height: 300px;
+    width: 210px;
+    border-radius: 50%;
+}
+
+.name {
+    font-family: HP;
+    color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+
+    background-image: url(/src/assets/img/plata.jpg);
+    background-size: auto;
+    background-position-y: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.house {
+    font-family: HP;
+    color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+
+    background-image: url(/src/assets/img/oro.jpg);
+    background-size: auto;
+    background-position-y: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
